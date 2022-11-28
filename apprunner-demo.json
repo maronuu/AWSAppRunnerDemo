@@ -1,0 +1,16 @@
+{
+    "ServiceName": "apprunner-demo",
+    "SourceConfiguration": {
+        "ImageRepository": {
+            "ImageIdentifier": "",
+            "ImageRepositoryType": "ECR",
+            "ImageConfiguration": {
+                "Port": ""
+            }
+        },
+        "AutoDeploymentsEnabled": true,
+        "AuthenticationConfiguration": {
+            "AccessRoleArn": ""
+        }
+    }
+}
